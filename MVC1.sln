@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37314.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC1", "MVC1\MVC1.csproj", "{F89507CB-D48E-471B-86F9-AA666339F1D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GYMsystem.DAL", "GYMsystem.DAL\GYMsystem.DAL.csproj", "{2B1A710B-5102-4ECE-AB06-9350C150346C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GYMSystem.BLL", "GYMSystem\GYMSystem.BLL.csproj", "{66F991FC-E4E8-4E75-8D89-1BD9B6FE5E2F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F89507CB-D48E-471B-86F9-AA666339F1D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F89507CB-D48E-471B-86F9-AA666339F1D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F89507CB-D48E-471B-86F9-AA666339F1D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F89507CB-D48E-471B-86F9-AA666339F1D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B1A710B-5102-4ECE-AB06-9350C150346C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B1A710B-5102-4ECE-AB06-9350C150346C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B1A710B-5102-4ECE-AB06-9350C150346C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B1A710B-5102-4ECE-AB06-9350C150346C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66F991FC-E4E8-4E75-8D89-1BD9B6FE5E2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66F991FC-E4E8-4E75-8D89-1BD9B6FE5E2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66F991FC-E4E8-4E75-8D89-1BD9B6FE5E2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66F991FC-E4E8-4E75-8D89-1BD9B6FE5E2F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AFB77102-7617-4DE6-934A-55F6B0C2AFA7}
+	EndGlobalSection
+EndGlobal
