@@ -1,15 +1,21 @@
+using AutoMapper;
 using GYMsystem.DAL.Context;
+using GYMsystem.DAL.DataSeeding;
 using GYMsystem.DAL.Repositories.classes;
 using GYMsystem.DAL.Repositories.interfaces;
+using GYMSystem.BLL;
 using GYMSystem.BLL.Services.classes;
 using GYMSystem.BLL.Services.Interface;
 using Microsoft.EntityFrameworkCore;
+using System.Threading.Tasks;
 
 namespace MVC1
 {
     public class Program
     {
-        public static void Main(string[] args)
+        private static string seedFolderpath;
+
+        public static async Task Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
 
@@ -23,6 +29,8 @@ namespace MVC1
             });
 
            // builder.Services.AddScoped<IplanRepository,PlanRepository>();
+           builder.Services.AddScoped<ISessionRepository, SessionRepository>();
+           
 
             builder.Services.AddScoped(typeof(IGenericRepository<>),typeof(GenericRepository<>));
 
@@ -31,10 +39,16 @@ namespace MVC1
             builder.Services.AddScoped<ITrainerService, TrainerService>();
 
             builder.Services.AddScoped<IUnitOfWork , UnitOfWork>();
-            builder.Services.AddScoped<ISessionRepository, SessionRepository>();
-            builder.Services.AddScoped<ISessionServices, SessionServices>();
+            
+            builder.Services.AddScoped<ISessionServices, SessionServices>(); 
+            builder.Services.AddAutoMapper(m=>m.AddProfile(new MappingProfile()));
 
             var app = builder.Build();
+
+            await app.MigrateAndSeedDatabaseAsync();
+
+
+
 
             // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())

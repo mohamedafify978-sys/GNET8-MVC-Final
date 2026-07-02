@@ -39,10 +39,10 @@ namespace MVC1.Controllers
 
 
             var result = await memberServices.CreateMemberAsync(model, token);
-            if (result)
+            if (result.Success)
                 TempData["SuccessMessage"] = "Member created successfully.";
             else
-                TempData["ErrorMessage"] = "Failed to create member.";
+                TempData["ErrorMessage"] = result.Error;
             return RedirectToAction(nameof(Index));
 
         }
@@ -91,10 +91,10 @@ namespace MVC1.Controllers
 
             var result = await memberServices.UpdateMemberAsync(id, model, ct);
 
-            if (result)
+            if (result.Success)
                 TempData["SuccessMessage"] = "Member updated successfully.";
             else
-                TempData["ErrorMessage"] = "Failed to update member.";
+                TempData["ErrorMessage"] = result.Error;
             return RedirectToAction(nameof(Index));
 
         }
@@ -116,10 +116,10 @@ namespace MVC1.Controllers
         {
          //if (!ModelState.IsValid) return View(nameof(Delete), id);
             var result = await memberServices.RemoveMemberAsync(id, ct);
-            if (result)
+            if (result.Success)
                 TempData["SuccessMessage"] = "Member deleted successfully.";
             else
-                TempData["ErrorMessage"] = "Failed to delete member.";
+                TempData["ErrorMessage"] = result.Error;
             return RedirectToAction(nameof(Index)); 
 
         } }   }

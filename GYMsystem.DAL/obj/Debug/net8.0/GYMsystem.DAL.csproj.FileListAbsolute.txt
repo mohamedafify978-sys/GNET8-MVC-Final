@@ -1,0 +1,43 @@
+D:\.net (alia\ass\MVC\MVC1 - Copy - Copy\GYMsystem.DAL\bin\Debug\net8.0\GYMsystem.DAL.deps.json
+D:\.net (alia\ass\MVC\MVC1 - Copy - Copy\GYMsystem.DAL\bin\Debug\net8.0\GYMsystem.DAL.runtimeconfig.json
+D:\.net (alia\ass\MVC\MVC1 - Copy - Copy\GYMsystem.DAL\bin\Debug\net8.0\GYMsystem.DAL.dll
+D:\.net (alia\ass\MVC\MVC1 - Copy - Copy\GYMsystem.DAL\bin\Debug\net8.0\GYMsystem.DAL.pdb
+D:\.net (alia\ass\MVC\MVC1 - Copy - Copy\GYMsystem.DAL\obj\Debug\net8.0\GYMsystem.DAL.csproj.AssemblyReference.cache
+D:\.net (alia\ass\MVC\MVC1 - Copy - Copy\GYMsystem.DAL\obj\Debug\net8.0\GYMsystem.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\.net (alia\ass\MVC\MVC1 - Copy - Copy\GYMsystem.DAL\obj\Debug\net8.0\GYMsystem.DAL.AssemblyInfoInputs.cache
+D:\.net (alia\ass\MVC\MVC1 - Copy - Copy\GYMsystem.DAL\obj\Debug\net8.0\GYMsystem.DAL.AssemblyInfo.cs
+D:\.net (alia\ass\MVC\MVC1 - Copy - Copy\GYMsystem.DAL\obj\Debug\net8.0\GYMsystem.DAL.csproj.CoreCompileInputs.cache
+D:\.net (alia\ass\MVC\MVC1 - Copy - Copy\GYMsystem.DAL\obj\Debug\net8.0\GYMsystem.DAL.dll
+D:\.net (alia\ass\MVC\MVC1 - Copy - Copy\GYMsystem.DAL\obj\Debug\net8.0\refint\GYMsystem.DAL.dll
+D:\.net (alia\ass\MVC\MVC1 - Copy - Copy\GYMsystem.DAL\obj\Debug\net8.0\GYMsystem.DAL.pdb
+D:\.net (alia\ass\MVC\MVC1 - Copy - Copy\GYMsystem.DAL\obj\Debug\net8.0\GYMsystem.DAL.genruntimeconfig.cache
+D:\.net (alia\ass\MVC\MVC1 - Copy - Copy\GYMsystem.DAL\obj\Debug\net8.0\ref\GYMsystem.DAL.dll
+D:\.net (alia\ass\MVC\MVC1 - Copy - Copy - Copy\GYMsystem.DAL\obj\Debug\net8.0\GYMsystem.DAL.csproj.AssemblyReference.cache
+D:\.net (alia\ass\MVC\MVC1 - Copy - Copy - Copy\GYMsystem.DAL\obj\Debug\net8.0\GYMsystem.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\.net (alia\ass\MVC\MVC1 - Copy - Copy - Copy\GYMsystem.DAL\obj\Debug\net8.0\GYMsystem.DAL.AssemblyInfoInputs.cache
+D:\.net (alia\ass\MVC\MVC1 - Copy - Copy - Copy\GYMsystem.DAL\obj\Debug\net8.0\GYMsystem.DAL.AssemblyInfo.cs
+D:\.net (alia\ass\MVC\MVC1 - Copy - Copy - Copy\GYMsystem.DAL\obj\Debug\net8.0\GYMsystem.DAL.csproj.CoreCompileInputs.cache
+D:\.net (alia\ass\MVC\MVC1 - Copy - Copy - Copy\GYMsystem.DAL\obj\Debug\net8.0\GYMsystem.DAL.dll
+D:\.net (alia\ass\MVC\MVC1 - Copy - Copy - Copy\GYMsystem.DAL\obj\Debug\net8.0\refint\GYMsystem.DAL.dll
+D:\.net (alia\ass\MVC\MVC1 - Copy - Copy - Copy\GYMsystem.DAL\obj\Debug\net8.0\GYMsystem.DAL.pdb
+D:\.net (alia\ass\MVC\MVC1 - Copy - Copy - Copy\GYMsystem.DAL\bin\Debug\net8.0\GYMsystem.DAL.deps.json
+D:\.net (alia\ass\MVC\MVC1 - Copy - Copy - Copy\GYMsystem.DAL\bin\Debug\net8.0\GYMsystem.DAL.runtimeconfig.json
+D:\.net (alia\ass\MVC\MVC1 - Copy - Copy - Copy\GYMsystem.DAL\bin\Debug\net8.0\GYMsystem.DAL.dll
+D:\.net (alia\ass\MVC\MVC1 - Copy - Copy - Copy\GYMsystem.DAL\bin\Debug\net8.0\GYMsystem.DAL.pdb
+D:\.net (alia\ass\MVC\MVC1 - Copy - Copy - Copy\GYMsystem.DAL\obj\Debug\net8.0\GYMsystem.DAL.genruntimeconfig.cache
+D:\.net (alia\ass\MVC\MVC1 - Copy - Copy - Copy\GYMsystem.DAL\obj\Debug\net8.0\ref\GYMsystem.DAL.dll
+D:\.net (alia\ass\MVC\MVC1 - Copy - Copy - Copy - Copy\GYMsystem.DAL\bin\Debug\net8.0\GYMsystem.DAL.deps.json
+D:\.net (alia\ass\MVC\MVC1 - Copy - Copy - Copy - Copy\GYMsystem.DAL\bin\Debug\net8.0\GYMsystem.DAL.runtimeconfig.json
+D:\.net (alia\ass\MVC\MVC1 - Copy - Copy - Copy - Copy\GYMsystem.DAL\bin\Debug\net8.0\GYMsystem.DAL.dll
+D:\.net (alia\ass\MVC\MVC1 - Copy - Copy - Copy - Copy\GYMsystem.DAL\bin\Debug\net8.0\GYMsystem.DAL.pdb
+D:\.net (alia\ass\MVC\MVC1 - Copy - Copy - Copy - Copy\GYMsystem.DAL\obj\Debug\net8.0\GYMsystem.DAL.csproj.AssemblyReference.cache
+D:\.net (alia\ass\MVC\MVC1 - Copy - Copy - Copy - Copy\GYMsystem.DAL\obj\Debug\net8.0\GYMsystem.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\.net (alia\ass\MVC\MVC1 - Copy - Copy - Copy - Copy\GYMsystem.DAL\obj\Debug\net8.0\GYMsystem.DAL.AssemblyInfoInputs.cache
+D:\.net (alia\ass\MVC\MVC1 - Copy - Copy - Copy - Copy\GYMsystem.DAL\obj\Debug\net8.0\GYMsystem.DAL.AssemblyInfo.cs
+D:\.net (alia\ass\MVC\MVC1 - Copy - Copy - Copy - Copy\GYMsystem.DAL\obj\Debug\net8.0\GYMsystem.DAL.csproj.CoreCompileInputs.cache
+D:\.net (alia\ass\MVC\MVC1 - Copy - Copy - Copy - Copy\GYMsystem.DAL\obj\Debug\net8.0\GYMsystem.DAL.sourcelink.json
+D:\.net (alia\ass\MVC\MVC1 - Copy - Copy - Copy - Copy\GYMsystem.DAL\obj\Debug\net8.0\GYMsystem.DAL.dll
+D:\.net (alia\ass\MVC\MVC1 - Copy - Copy - Copy - Copy\GYMsystem.DAL\obj\Debug\net8.0\refint\GYMsystem.DAL.dll
+D:\.net (alia\ass\MVC\MVC1 - Copy - Copy - Copy - Copy\GYMsystem.DAL\obj\Debug\net8.0\GYMsystem.DAL.pdb
+D:\.net (alia\ass\MVC\MVC1 - Copy - Copy - Copy - Copy\GYMsystem.DAL\obj\Debug\net8.0\GYMsystem.DAL.genruntimeconfig.cache
+D:\.net (alia\ass\MVC\MVC1 - Copy - Copy - Copy - Copy\GYMsystem.DAL\obj\Debug\net8.0\ref\GYMsystem.DAL.dll

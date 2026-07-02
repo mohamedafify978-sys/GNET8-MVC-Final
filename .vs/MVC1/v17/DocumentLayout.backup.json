@@ -1,0 +1,309 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\.net (alia\\ass\\MVC\\MVC1 - Copy - Copy - Copy - Copy\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F89507CB-D48E-471B-86F9-AA666339F1D1}|MVC1\\MVC1.csproj|d:\\.net (alia\\ass\\mvc\\mvc1 - copy - copy - copy - copy\\mvc1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F89507CB-D48E-471B-86F9-AA666339F1D1}|MVC1\\MVC1.csproj|solutionrelative:mvc1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F89507CB-D48E-471B-86F9-AA666339F1D1}|MVC1\\MVC1.csproj|d:\\.net (alia\\ass\\mvc\\mvc1 - copy - copy - copy - copy\\mvc1\\programextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F89507CB-D48E-471B-86F9-AA666339F1D1}|MVC1\\MVC1.csproj|solutionrelative:mvc1\\programextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B1A710B-5102-4ECE-AB06-9350C150346C}|GYMsystem.DAL\\GYMsystem.DAL.csproj|d:\\.net (alia\\ass\\mvc\\mvc1 - copy - copy - copy - copy\\gymsystem.dal\\dataseeding\\gymdataseeding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B1A710B-5102-4ECE-AB06-9350C150346C}|GYMsystem.DAL\\GYMsystem.DAL.csproj|solutionrelative:gymsystem.dal\\dataseeding\\gymdataseeding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F89507CB-D48E-471B-86F9-AA666339F1D1}|MVC1\\MVC1.csproj|d:\\.net (alia\\ass\\mvc\\mvc1 - copy - copy - copy - copy\\mvc1\\controllers\\trainercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F89507CB-D48E-471B-86F9-AA666339F1D1}|MVC1\\MVC1.csproj|solutionrelative:mvc1\\controllers\\trainercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F89507CB-D48E-471B-86F9-AA666339F1D1}|MVC1\\MVC1.csproj|d:\\.net (alia\\ass\\mvc\\mvc1 - copy - copy - copy - copy\\mvc1\\controllers\\plancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F89507CB-D48E-471B-86F9-AA666339F1D1}|MVC1\\MVC1.csproj|solutionrelative:mvc1\\controllers\\plancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F89507CB-D48E-471B-86F9-AA666339F1D1}|MVC1\\MVC1.csproj|d:\\.net (alia\\ass\\mvc\\mvc1 - copy - copy - copy - copy\\mvc1\\controllers\\membercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F89507CB-D48E-471B-86F9-AA666339F1D1}|MVC1\\MVC1.csproj|solutionrelative:mvc1\\controllers\\membercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F89507CB-D48E-471B-86F9-AA666339F1D1}|MVC1\\MVC1.csproj|d:\\.net (alia\\ass\\mvc\\mvc1 - copy - copy - copy - copy\\mvc1\\controllers\\sessioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F89507CB-D48E-471B-86F9-AA666339F1D1}|MVC1\\MVC1.csproj|solutionrelative:mvc1\\controllers\\sessioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F89507CB-D48E-471B-86F9-AA666339F1D1}|MVC1\\MVC1.csproj|d:\\.net (alia\\ass\\mvc\\mvc1 - copy - copy - copy - copy\\mvc1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F89507CB-D48E-471B-86F9-AA666339F1D1}|MVC1\\MVC1.csproj|solutionrelative:mvc1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66F991FC-E4E8-4E75-8D89-1BD9B6FE5E2F}|GYMSystem\\GYMSystem.BLL.csproj|d:\\.net (alia\\ass\\mvc\\mvc1 - copy - copy - copy - copy\\gymsystem\\services\\interface\\isessionservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66F991FC-E4E8-4E75-8D89-1BD9B6FE5E2F}|GYMSystem\\GYMSystem.BLL.csproj|solutionrelative:gymsystem\\services\\interface\\isessionservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66F991FC-E4E8-4E75-8D89-1BD9B6FE5E2F}|GYMSystem\\GYMSystem.BLL.csproj|d:\\.net (alia\\ass\\mvc\\mvc1 - copy - copy - copy - copy\\gymsystem\\services\\interface\\itrainerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66F991FC-E4E8-4E75-8D89-1BD9B6FE5E2F}|GYMSystem\\GYMSystem.BLL.csproj|solutionrelative:gymsystem\\services\\interface\\itrainerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66F991FC-E4E8-4E75-8D89-1BD9B6FE5E2F}|GYMSystem\\GYMSystem.BLL.csproj|d:\\.net (alia\\ass\\mvc\\mvc1 - copy - copy - copy - copy\\gymsystem\\services\\interface\\iplanservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66F991FC-E4E8-4E75-8D89-1BD9B6FE5E2F}|GYMSystem\\GYMSystem.BLL.csproj|solutionrelative:gymsystem\\services\\interface\\iplanservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66F991FC-E4E8-4E75-8D89-1BD9B6FE5E2F}|GYMSystem\\GYMSystem.BLL.csproj|d:\\.net (alia\\ass\\mvc\\mvc1 - copy - copy - copy - copy\\gymsystem\\services\\interface\\imemberservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66F991FC-E4E8-4E75-8D89-1BD9B6FE5E2F}|GYMSystem\\GYMSystem.BLL.csproj|solutionrelative:gymsystem\\services\\interface\\imemberservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66F991FC-E4E8-4E75-8D89-1BD9B6FE5E2F}|GYMSystem\\GYMSystem.BLL.csproj|d:\\.net (alia\\ass\\mvc\\mvc1 - copy - copy - copy - copy\\gymsystem\\services\\classes\\planservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66F991FC-E4E8-4E75-8D89-1BD9B6FE5E2F}|GYMSystem\\GYMSystem.BLL.csproj|solutionrelative:gymsystem\\services\\classes\\planservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66F991FC-E4E8-4E75-8D89-1BD9B6FE5E2F}|GYMSystem\\GYMSystem.BLL.csproj|d:\\.net (alia\\ass\\mvc\\mvc1 - copy - copy - copy - copy\\gymsystem\\services\\classes\\sessionservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66F991FC-E4E8-4E75-8D89-1BD9B6FE5E2F}|GYMSystem\\GYMSystem.BLL.csproj|solutionrelative:gymsystem\\services\\classes\\sessionservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66F991FC-E4E8-4E75-8D89-1BD9B6FE5E2F}|GYMSystem\\GYMSystem.BLL.csproj|d:\\.net (alia\\ass\\mvc\\mvc1 - copy - copy - copy - copy\\gymsystem\\services\\classes\\trainerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66F991FC-E4E8-4E75-8D89-1BD9B6FE5E2F}|GYMSystem\\GYMSystem.BLL.csproj|solutionrelative:gymsystem\\services\\classes\\trainerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66F991FC-E4E8-4E75-8D89-1BD9B6FE5E2F}|GYMSystem\\GYMSystem.BLL.csproj|d:\\.net (alia\\ass\\mvc\\mvc1 - copy - copy - copy - copy\\gymsystem\\services\\classes\\memberservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66F991FC-E4E8-4E75-8D89-1BD9B6FE5E2F}|GYMSystem\\GYMSystem.BLL.csproj|solutionrelative:gymsystem\\services\\classes\\memberservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66F991FC-E4E8-4E75-8D89-1BD9B6FE5E2F}|GYMSystem\\GYMSystem.BLL.csproj|d:\\.net (alia\\ass\\mvc\\mvc1 - copy - copy - copy - copy\\gymsystem\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66F991FC-E4E8-4E75-8D89-1BD9B6FE5E2F}|GYMSystem\\GYMSystem.BLL.csproj|solutionrelative:gymsystem\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66F991FC-E4E8-4E75-8D89-1BD9B6FE5E2F}|GYMSystem\\GYMSystem.BLL.csproj|d:\\.net (alia\\ass\\mvc\\mvc1 - copy - copy - copy - copy\\gymsystem\\common\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66F991FC-E4E8-4E75-8D89-1BD9B6FE5E2F}|GYMSystem\\GYMSystem.BLL.csproj|solutionrelative:gymsystem\\common\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProgramExtension.cs",
+              "DocumentMoniker": "D:\\.net (alia\\ass\\MVC\\MVC1 - Copy - Copy - Copy - Copy\\MVC1\\ProgramExtension.cs",
+              "RelativeDocumentMoniker": "MVC1\\ProgramExtension.cs",
+              "ToolTip": "D:\\.net (alia\\ass\\MVC\\MVC1 - Copy - Copy - Copy - Copy\\MVC1\\ProgramExtension.cs",
+              "RelativeToolTip": "MVC1\\ProgramExtension.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAkAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T23:41:31.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\.net (alia\\ass\\MVC\\MVC1 - Copy - Copy - Copy - Copy\\MVC1\\Program.cs",
+              "RelativeDocumentMoniker": "MVC1\\Program.cs",
+              "ToolTip": "D:\\.net (alia\\ass\\MVC\\MVC1 - Copy - Copy - Copy - Copy\\MVC1\\Program.cs",
+              "RelativeToolTip": "MVC1\\Program.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAkwC8AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T23:08:40.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TrainerController.cs",
+              "DocumentMoniker": "D:\\.net (alia\\ass\\MVC\\MVC1 - Copy - Copy - Copy - Copy\\MVC1\\Controllers\\TrainerController.cs",
+              "RelativeDocumentMoniker": "MVC1\\Controllers\\TrainerController.cs",
+              "ToolTip": "D:\\.net (alia\\ass\\MVC\\MVC1 - Copy - Copy - Copy - Copy\\MVC1\\Controllers\\TrainerController.cs",
+              "RelativeToolTip": "MVC1\\Controllers\\TrainerController.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAowGMAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T14:04:05.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SessionController.cs",
+              "DocumentMoniker": "D:\\.net (alia\\ass\\MVC\\MVC1 - Copy - Copy - Copy - Copy\\MVC1\\Controllers\\SessionController.cs",
+              "RelativeDocumentMoniker": "MVC1\\Controllers\\SessionController.cs",
+              "ToolTip": "D:\\.net (alia\\ass\\MVC\\MVC1 - Copy - Copy - Copy - Copy\\MVC1\\Controllers\\SessionController.cs",
+              "RelativeToolTip": "MVC1\\Controllers\\SessionController.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAswEsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T14:00:40.028Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PlanController.cs",
+              "DocumentMoniker": "D:\\.net (alia\\ass\\MVC\\MVC1 - Copy - Copy - Copy - Copy\\MVC1\\Controllers\\PlanController.cs",
+              "RelativeDocumentMoniker": "MVC1\\Controllers\\PlanController.cs",
+              "ToolTip": "D:\\.net (alia\\ass\\MVC\\MVC1 - Copy - Copy - Copy - Copy\\MVC1\\Controllers\\PlanController.cs",
+              "RelativeToolTip": "MVC1\\Controllers\\PlanController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAD8AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T14:00:04.184Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\.net (alia\\ass\\MVC\\MVC1 - Copy - Copy - Copy - Copy\\MVC1\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "MVC1\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\.net (alia\\ass\\MVC\\MVC1 - Copy - Copy - Copy - Copy\\MVC1\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "MVC1\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T14:00:00.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MemberController.cs",
+              "DocumentMoniker": "D:\\.net (alia\\ass\\MVC\\MVC1 - Copy - Copy - Copy - Copy\\MVC1\\Controllers\\MemberController.cs",
+              "RelativeDocumentMoniker": "MVC1\\Controllers\\MemberController.cs",
+              "ToolTip": "D:\\.net (alia\\ass\\MVC\\MVC1 - Copy - Copy - Copy - Copy\\MVC1\\Controllers\\MemberController.cs",
+              "RelativeToolTip": "MVC1\\Controllers\\MemberController.cs",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAqwGAAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T13:59:04.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ISessionServices.cs",
+              "DocumentMoniker": "D:\\.net (alia\\ass\\MVC\\MVC1 - Copy - Copy - Copy - Copy\\GYMSystem\\Services\\Interface\\ISessionServices.cs",
+              "RelativeDocumentMoniker": "GYMSystem\\Services\\Interface\\ISessionServices.cs",
+              "ToolTip": "D:\\.net (alia\\ass\\MVC\\MVC1 - Copy - Copy - Copy - Copy\\GYMSystem\\Services\\Interface\\ISessionServices.cs",
+              "RelativeToolTip": "GYMSystem\\Services\\Interface\\ISessionServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T13:56:21.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ITrainerService.cs",
+              "DocumentMoniker": "D:\\.net (alia\\ass\\MVC\\MVC1 - Copy - Copy - Copy - Copy\\GYMSystem\\Services\\Interface\\ITrainerService.cs",
+              "RelativeDocumentMoniker": "GYMSystem\\Services\\Interface\\ITrainerService.cs",
+              "ToolTip": "D:\\.net (alia\\ass\\MVC\\MVC1 - Copy - Copy - Copy - Copy\\GYMSystem\\Services\\Interface\\ITrainerService.cs",
+              "RelativeToolTip": "GYMSystem\\Services\\Interface\\ITrainerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T13:53:20.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IPlanServices.cs",
+              "DocumentMoniker": "D:\\.net (alia\\ass\\MVC\\MVC1 - Copy - Copy - Copy - Copy\\GYMSystem\\Services\\Interface\\IPlanServices.cs",
+              "RelativeDocumentMoniker": "GYMSystem\\Services\\Interface\\IPlanServices.cs",
+              "ToolTip": "D:\\.net (alia\\ass\\MVC\\MVC1 - Copy - Copy - Copy - Copy\\GYMSystem\\Services\\Interface\\IPlanServices.cs",
+              "RelativeToolTip": "GYMSystem\\Services\\Interface\\IPlanServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T13:51:35.911Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IMemberServices.cs",
+              "DocumentMoniker": "D:\\.net (alia\\ass\\MVC\\MVC1 - Copy - Copy - Copy - Copy\\GYMSystem\\Services\\Interface\\IMemberServices.cs",
+              "RelativeDocumentMoniker": "GYMSystem\\Services\\Interface\\IMemberServices.cs",
+              "ToolTip": "D:\\.net (alia\\ass\\MVC\\MVC1 - Copy - Copy - Copy - Copy\\GYMSystem\\Services\\Interface\\IMemberServices.cs",
+              "RelativeToolTip": "GYMSystem\\Services\\Interface\\IMemberServices.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAABcAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T03:59:40.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TrainerService.cs",
+              "DocumentMoniker": "D:\\.net (alia\\ass\\MVC\\MVC1 - Copy - Copy - Copy - Copy\\GYMSystem\\Services\\classes\\TrainerService.cs",
+              "RelativeDocumentMoniker": "GYMSystem\\Services\\classes\\TrainerService.cs",
+              "ToolTip": "D:\\.net (alia\\ass\\MVC\\MVC1 - Copy - Copy - Copy - Copy\\GYMSystem\\Services\\classes\\TrainerService.cs",
+              "RelativeToolTip": "GYMSystem\\Services\\classes\\TrainerService.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAgwGUAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T03:33:26.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SessionServices.cs",
+              "DocumentMoniker": "D:\\.net (alia\\ass\\MVC\\MVC1 - Copy - Copy - Copy - Copy\\GYMSystem\\Services\\classes\\SessionServices.cs",
+              "RelativeDocumentMoniker": "GYMSystem\\Services\\classes\\SessionServices.cs",
+              "ToolTip": "D:\\.net (alia\\ass\\MVC\\MVC1 - Copy - Copy - Copy - Copy\\GYMSystem\\Services\\classes\\SessionServices.cs",
+              "RelativeToolTip": "GYMSystem\\Services\\classes\\SessionServices.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwC8AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T03:32:52.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PlanServices.cs",
+              "DocumentMoniker": "D:\\.net (alia\\ass\\MVC\\MVC1 - Copy - Copy - Copy - Copy\\GYMSystem\\Services\\classes\\PlanServices.cs",
+              "RelativeDocumentMoniker": "GYMSystem\\Services\\classes\\PlanServices.cs",
+              "ToolTip": "D:\\.net (alia\\ass\\MVC\\MVC1 - Copy - Copy - Copy - Copy\\GYMSystem\\Services\\classes\\PlanServices.cs",
+              "RelativeToolTip": "GYMSystem\\Services\\classes\\PlanServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFgAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T03:32:01.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MemberServices.cs",
+              "DocumentMoniker": "D:\\.net (alia\\ass\\MVC\\MVC1 - Copy - Copy - Copy - Copy\\GYMSystem\\Services\\classes\\MemberServices.cs",
+              "RelativeDocumentMoniker": "GYMSystem\\Services\\classes\\MemberServices.cs",
+              "ToolTip": "D:\\.net (alia\\ass\\MVC\\MVC1 - Copy - Copy - Copy - Copy\\GYMSystem\\Services\\classes\\MemberServices.cs",
+              "RelativeToolTip": "GYMSystem\\Services\\classes\\MemberServices.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwHcAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T03:31:55.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "D:\\.net (alia\\ass\\MVC\\MVC1 - Copy - Copy - Copy - Copy\\GYMSystem\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "GYMSystem\\MappingProfile.cs",
+              "ToolTip": "D:\\.net (alia\\ass\\MVC\\MVC1 - Copy - Copy - Copy - Copy\\GYMSystem\\MappingProfile.cs",
+              "RelativeToolTip": "GYMSystem\\MappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T03:30:42.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Result.cs",
+              "DocumentMoniker": "D:\\.net (alia\\ass\\MVC\\MVC1 - Copy - Copy - Copy - Copy\\GYMSystem\\Common\\Result.cs",
+              "RelativeDocumentMoniker": "GYMSystem\\Common\\Result.cs",
+              "ToolTip": "D:\\.net (alia\\ass\\MVC\\MVC1 - Copy - Copy - Copy - Copy\\GYMSystem\\Common\\Result.cs",
+              "RelativeToolTip": "GYMSystem\\Common\\Result.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T03:30:36.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GYMDataSeeding.cs",
+              "DocumentMoniker": "D:\\.net (alia\\ass\\MVC\\MVC1 - Copy - Copy - Copy - Copy\\GYMsystem.DAL\\DataSeeding\\GYMDataSeeding.cs",
+              "RelativeDocumentMoniker": "GYMsystem.DAL\\DataSeeding\\GYMDataSeeding.cs",
+              "ToolTip": "D:\\.net (alia\\ass\\MVC\\MVC1 - Copy - Copy - Copy - Copy\\GYMsystem.DAL\\DataSeeding\\GYMDataSeeding.cs",
+              "RelativeToolTip": "GYMsystem.DAL\\DataSeeding\\GYMDataSeeding.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABEAAACHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T03:00:37.019Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

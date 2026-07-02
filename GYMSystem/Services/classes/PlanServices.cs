@@ -1,5 +1,7 @@
-﻿using GYMsystem.DAL.Models;
+﻿using AutoMapper;
+using GYMsystem.DAL.Models;
 using GYMsystem.DAL.Repositories.interfaces;
+using GYMSystem.BLL.Common;
 using GYMSystem.BLL.Services.Interface;
 using GYMSystem.BLL.ViewModels.PlanViewModel;
 using System;
@@ -14,24 +16,20 @@ namespace GYMSystem.BLL.Services.classes
     {
 
          private readonly IUnitOfWork unitOfWork;
+        private readonly IMapper mapper;
+        
 
-        public PlanServices(IUnitOfWork unitOfWork)
+        public PlanServices(IUnitOfWork unitOfWork,IMapper mapper)
         {
             this.unitOfWork = unitOfWork;
+            this.mapper = mapper;
         }
+
 
         public async Task<IEnumerable<PlanViewModel>> GetAllPlanAsync(CancellationToken ct = default)
         {
             var plans = await unitOfWork.GetRepository<Plan>().GetAllAsync( ct:ct);
-          return plans.Select(p => new PlanViewModel
-            {
-                Id = p.Id,
-                Name = p.Name,
-                Description = p.Description,
-                durationDays = p.DurationDays,
-                price = p.Price,
-                IsActive = p.IsActive
-            });
+          return mapper.Map<IEnumerable< PlanViewModel>>(plans);
         }
 
         public async Task<PlanViewModel?> GetPlanByIdAsync(int id, CancellationToken ct = default)
@@ -39,15 +37,7 @@ namespace GYMSystem.BLL.Services.classes
            var plan = await unitOfWork.GetRepository<Plan>().GetByIdAsync(id, ct);
             if (plan is null) return null;
             else
-               return new PlanViewModel
-                {
-                    Id = plan.Id,
-                    Name = plan.Name,
-                    Description = plan.Description,
-                    durationDays = plan.DurationDays,
-                    price = plan.Price,
-                    IsActive = plan.IsActive
-                };
+               return mapper.Map<PlanViewModel>(plan);
             
         }
 
@@ -58,30 +48,24 @@ namespace GYMSystem.BLL.Services.classes
             if (plan is null || !plan.IsActive) return null;
             if( await HasActivaMemberShipsAsync(id, ct))
                 return null;
-            else return new UpdatePlanViewModel
-            {
-                PlanName = plan.Name,
-                Description = plan.Description,
-                durationDays = plan.DurationDays,
-                price = plan.Price
-            };
+            else return mapper.Map<UpdatePlanViewModel>(plan);
 
         }
 
-        public async Task<bool> ToggleActivatioAsync(int id, CancellationToken ct = default)
+        public async Task<Result> ToggleActivatioAsync(int id, CancellationToken ct = default)
         {
           
             var plan =await unitOfWork.GetRepository<Plan>().GetByIdAsync(id, ct);
-            if (plan is null) return false;
-            if (plan.IsActive && await HasActivaMemberShipsAsync(id, ct)) return false;
-            
+            if (plan is null) return Result.NotFound("Plan not found");
+            if (plan.IsActive && await HasActivaMemberShipsAsync(id, ct)) return Result.Fail("Cannot deactivate plan with active memberships", ResultKind.Conflict);
+
 
             plan.IsActive = !plan.IsActive;
             plan.UpdatedAt = DateTime.Now;
 
             unitOfWork.GetRepository<Plan>().Update(plan);
             var result = await unitOfWork.SaveChangesAsync(ct);
-            return result > 0;
+            return result > 0 ? Result.Ok() : Result.Fail("Failed to update Member.");
 
 
 
@@ -89,20 +73,20 @@ namespace GYMSystem.BLL.Services.classes
 
         }
 
-        public async Task<bool> UpdatePlanAsync(int id, UpdatePlanViewModel model, CancellationToken ct = default)
+        public async Task<Result> UpdatePlanAsync(int id, UpdatePlanViewModel model, CancellationToken ct = default)
         {
            var plan = await unitOfWork.GetRepository<Plan>() .GetByIdAsync(id, ct);
-            if (plan is null) return false;
-            if (await HasActivaMemberShipsAsync(id, ct)) return false;
+            if (plan is null) return Result.NotFound("Plan not found");
+            if (await HasActivaMemberShipsAsync(id, ct)) return Result.Fail("Cannot update plan with active memberships", ResultKind.Conflict);
 
+
+            mapper.Map(model, plan);
 
             plan.UpdatedAt = DateTime.Now;
-            plan.Description = model.Description;
-            plan.DurationDays = model.durationDays;
-            plan.Price = model.price;
+           
             unitOfWork.GetRepository<Plan>().Update(plan);
             var result = await unitOfWork.SaveChangesAsync(ct); 
-            return result > 0;
+            return result > 0 ? Result.Ok() : Result.Fail("Failed to update Member.");
         }
         private async Task<bool> HasActivaMemberShipsAsync(int planId, CancellationToken ct = default)
         {

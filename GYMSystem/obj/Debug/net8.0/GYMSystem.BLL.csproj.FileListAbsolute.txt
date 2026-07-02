@@ -1,0 +1,46 @@
+D:\.net (alia\ass\MVC\MVC1 - Copy - Copy\GYMSystem\bin\Debug\net8.0\GYMSystem.BLL.deps.json
+D:\.net (alia\ass\MVC\MVC1 - Copy - Copy\GYMSystem\bin\Debug\net8.0\GYMSystem.BLL.dll
+D:\.net (alia\ass\MVC\MVC1 - Copy - Copy\GYMSystem\bin\Debug\net8.0\GYMSystem.BLL.pdb
+D:\.net (alia\ass\MVC\MVC1 - Copy - Copy\GYMSystem\bin\Debug\net8.0\GYMsystem.DAL.dll
+D:\.net (alia\ass\MVC\MVC1 - Copy - Copy\GYMSystem\bin\Debug\net8.0\GYMsystem.DAL.pdb
+D:\.net (alia\ass\MVC\MVC1 - Copy - Copy\GYMSystem\obj\Debug\net8.0\GYMSystem.BLL.csproj.AssemblyReference.cache
+D:\.net (alia\ass\MVC\MVC1 - Copy - Copy\GYMSystem\obj\Debug\net8.0\GYMSystem.BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\.net (alia\ass\MVC\MVC1 - Copy - Copy\GYMSystem\obj\Debug\net8.0\GYMSystem.BLL.AssemblyInfoInputs.cache
+D:\.net (alia\ass\MVC\MVC1 - Copy - Copy\GYMSystem\obj\Debug\net8.0\GYMSystem.BLL.AssemblyInfo.cs
+D:\.net (alia\ass\MVC\MVC1 - Copy - Copy\GYMSystem\obj\Debug\net8.0\GYMSystem.BLL.csproj.CoreCompileInputs.cache
+D:\.net (alia\ass\MVC\MVC1 - Copy - Copy\GYMSystem\obj\Debug\net8.0\GYMSyste.90235C17.Up2Date
+D:\.net (alia\ass\MVC\MVC1 - Copy - Copy\GYMSystem\obj\Debug\net8.0\GYMSystem.BLL.dll
+D:\.net (alia\ass\MVC\MVC1 - Copy - Copy\GYMSystem\obj\Debug\net8.0\refint\GYMSystem.BLL.dll
+D:\.net (alia\ass\MVC\MVC1 - Copy - Copy\GYMSystem\obj\Debug\net8.0\GYMSystem.BLL.pdb
+D:\.net (alia\ass\MVC\MVC1 - Copy - Copy\GYMSystem\obj\Debug\net8.0\ref\GYMSystem.BLL.dll
+D:\.net (alia\ass\MVC\MVC1 - Copy - Copy - Copy\GYMSystem\bin\Debug\net8.0\GYMSystem.BLL.deps.json
+D:\.net (alia\ass\MVC\MVC1 - Copy - Copy - Copy\GYMSystem\bin\Debug\net8.0\GYMSystem.BLL.dll
+D:\.net (alia\ass\MVC\MVC1 - Copy - Copy - Copy\GYMSystem\bin\Debug\net8.0\GYMSystem.BLL.pdb
+D:\.net (alia\ass\MVC\MVC1 - Copy - Copy - Copy\GYMSystem\bin\Debug\net8.0\GYMsystem.DAL.dll
+D:\.net (alia\ass\MVC\MVC1 - Copy - Copy - Copy\GYMSystem\bin\Debug\net8.0\GYMsystem.DAL.pdb
+D:\.net (alia\ass\MVC\MVC1 - Copy - Copy - Copy\GYMSystem\obj\Debug\net8.0\GYMSystem.BLL.csproj.AssemblyReference.cache
+D:\.net (alia\ass\MVC\MVC1 - Copy - Copy - Copy\GYMSystem\obj\Debug\net8.0\GYMSystem.BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\.net (alia\ass\MVC\MVC1 - Copy - Copy - Copy\GYMSystem\obj\Debug\net8.0\GYMSystem.BLL.AssemblyInfoInputs.cache
+D:\.net (alia\ass\MVC\MVC1 - Copy - Copy - Copy\GYMSystem\obj\Debug\net8.0\GYMSystem.BLL.AssemblyInfo.cs
+D:\.net (alia\ass\MVC\MVC1 - Copy - Copy - Copy\GYMSystem\obj\Debug\net8.0\GYMSystem.BLL.csproj.CoreCompileInputs.cache
+D:\.net (alia\ass\MVC\MVC1 - Copy - Copy - Copy\GYMSystem\obj\Debug\net8.0\GYMSyste.90235C17.Up2Date
+D:\.net (alia\ass\MVC\MVC1 - Copy - Copy - Copy\GYMSystem\obj\Debug\net8.0\GYMSystem.BLL.dll
+D:\.net (alia\ass\MVC\MVC1 - Copy - Copy - Copy\GYMSystem\obj\Debug\net8.0\refint\GYMSystem.BLL.dll
+D:\.net (alia\ass\MVC\MVC1 - Copy - Copy - Copy\GYMSystem\obj\Debug\net8.0\GYMSystem.BLL.pdb
+D:\.net (alia\ass\MVC\MVC1 - Copy - Copy - Copy\GYMSystem\obj\Debug\net8.0\ref\GYMSystem.BLL.dll
+D:\.net (alia\ass\MVC\MVC1 - Copy - Copy - Copy - Copy\GYMSystem\bin\Debug\net8.0\GYMSystem.BLL.deps.json
+D:\.net (alia\ass\MVC\MVC1 - Copy - Copy - Copy - Copy\GYMSystem\bin\Debug\net8.0\GYMSystem.BLL.dll
+D:\.net (alia\ass\MVC\MVC1 - Copy - Copy - Copy - Copy\GYMSystem\bin\Debug\net8.0\GYMSystem.BLL.pdb
+D:\.net (alia\ass\MVC\MVC1 - Copy - Copy - Copy - Copy\GYMSystem\bin\Debug\net8.0\GYMsystem.DAL.dll
+D:\.net (alia\ass\MVC\MVC1 - Copy - Copy - Copy - Copy\GYMSystem\bin\Debug\net8.0\GYMsystem.DAL.pdb
+D:\.net (alia\ass\MVC\MVC1 - Copy - Copy - Copy - Copy\GYMSystem\obj\Debug\net8.0\GYMSystem.BLL.csproj.AssemblyReference.cache
+D:\.net (alia\ass\MVC\MVC1 - Copy - Copy - Copy - Copy\GYMSystem\obj\Debug\net8.0\GYMSystem.BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\.net (alia\ass\MVC\MVC1 - Copy - Copy - Copy - Copy\GYMSystem\obj\Debug\net8.0\GYMSystem.BLL.AssemblyInfoInputs.cache
+D:\.net (alia\ass\MVC\MVC1 - Copy - Copy - Copy - Copy\GYMSystem\obj\Debug\net8.0\GYMSystem.BLL.AssemblyInfo.cs
+D:\.net (alia\ass\MVC\MVC1 - Copy - Copy - Copy - Copy\GYMSystem\obj\Debug\net8.0\GYMSystem.BLL.csproj.CoreCompileInputs.cache
+D:\.net (alia\ass\MVC\MVC1 - Copy - Copy - Copy - Copy\GYMSystem\obj\Debug\net8.0\GYMSystem.BLL.sourcelink.json
+D:\.net (alia\ass\MVC\MVC1 - Copy - Copy - Copy - Copy\GYMSystem\obj\Debug\net8.0\GYMSyste.90235C17.Up2Date
+D:\.net (alia\ass\MVC\MVC1 - Copy - Copy - Copy - Copy\GYMSystem\obj\Debug\net8.0\GYMSystem.BLL.dll
+D:\.net (alia\ass\MVC\MVC1 - Copy - Copy - Copy - Copy\GYMSystem\obj\Debug\net8.0\refint\GYMSystem.BLL.dll
+D:\.net (alia\ass\MVC\MVC1 - Copy - Copy - Copy - Copy\GYMSystem\obj\Debug\net8.0\GYMSystem.BLL.pdb
+D:\.net (alia\ass\MVC\MVC1 - Copy - Copy - Copy - Copy\GYMSystem\obj\Debug\net8.0\ref\GYMSystem.BLL.dll

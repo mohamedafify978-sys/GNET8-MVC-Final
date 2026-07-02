@@ -10,6 +10,7 @@ namespace GYMSystem.BLL.ViewModels.MemberViewModel
 {
     public class CreateMemberViewModel
     {
+
         [Required(ErrorMessage = "Name Is Required")]
         [RegularExpression(@"^[a-zA-Z\s]+$", ErrorMessage = "Name can only contain letters and spaces")]
         public string Name { get; set; } = default!;

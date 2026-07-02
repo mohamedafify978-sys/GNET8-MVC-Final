@@ -12,6 +12,8 @@ namespace GYMsystem.DAL.Configurations
                    .HasColumnName("JoinDate")
                    .HasDefaultValueSql("GETDATE()");
 
+            builder.Property(x => x.photo).IsRequired(false);
+
             builder.HasOne(M => M.HealthRecord)
                    .WithOne(HR => HR.Member)
                    .HasForeignKey<HealthRecord>(M => M.MemberId);

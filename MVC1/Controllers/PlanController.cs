@@ -58,10 +58,10 @@ namespace MVC1.Controllers
             if (!ModelState.IsValid)
                 return View(model);
             var result = await planService.UpdatePlanAsync(id, model, token);
-            if (result)
+            if (result.Success)
                 TempData["SuccessMessage"] = "Plan updated successfully.";
             else
-                TempData["ErrorMessage"] = "Failed to update plan.";
+                TempData["ErrorMessage"] = result.Error;
             return RedirectToAction(nameof(Index));
         }
 
@@ -69,10 +69,10 @@ namespace MVC1.Controllers
         public async Task<IActionResult> Activate(int id, CancellationToken token)
         {
             var result = await planService.ToggleActivatioAsync(id, token);
-            if (result)
+            if (result.Success)
                 TempData["SuccessMessage"] = "Plan activation status toggled successfully.";
             else
-                TempData["ErrorMessage"] = "Failed to toggle plan activation status.";
+                TempData["ErrorMessage"] = result.Error;
             return RedirectToAction(nameof(Index));
         }
     }

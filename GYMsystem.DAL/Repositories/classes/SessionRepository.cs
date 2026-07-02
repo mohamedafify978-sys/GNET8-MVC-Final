@@ -22,14 +22,19 @@ namespace GYMsystem.DAL.Repositories.classes
 
         public async Task<IEnumerable<Session>> GetAllSessionsWithTrainerAndCategoryAsync(CancellationToken ct)
         {
-           
-            var seasons = dbcontext.Sessions.AsNoTracking().Include(s=>s.Trainer).Include(s=>s.Category);
+
+            var seasons = dbcontext.Sessions.AsNoTracking().Include(s => s.Trainer).Include(s => s.Category);
             return await seasons.ToListAsync();
         }
 
         public async Task<int> GetCountOfBookedSoltsAsync(int SessionId, CancellationToken ct)
         {
-            return await dbcontext.Bookings.AsNoTracking().CountAsync(s => s.Id == SessionId);
+            return await dbcontext.Bookings.AsNoTracking().CountAsync(s => s.SessionId == SessionId, ct);
+        }
+
+        public async Task<Session?> GetSessionWithTrainerAndCategoryByIdAsync(int id, CancellationToken ct)
+        {
+            return await dbcontext.Sessions.AsNoTracking().Include(s => s.Trainer).Include(s => s.Category).FirstOrDefaultAsync(s => s.Id == id, ct);
         }
     }
 }

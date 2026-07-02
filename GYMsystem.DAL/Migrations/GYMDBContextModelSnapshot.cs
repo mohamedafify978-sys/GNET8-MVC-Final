@@ -187,7 +187,6 @@ namespace GYMsystem.DAL.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("photo")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
