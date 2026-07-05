@@ -14,5 +14,8 @@ namespace GYMsystem.DAL.Repositories.interfaces
 
         Task<int> SaveChangesAsync(CancellationToken ct);
         public ISessionRepository SessionRepository { get; }
+        public IMembershipRepository MembershipRepository { get; }
+      
+        public IBookingRepository BookingRepository { get; }
     }
 }

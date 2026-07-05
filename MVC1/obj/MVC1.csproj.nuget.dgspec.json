@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\.net (alia\\ass\\MVC\\MVC1 - Copy - Copy - Copy - Copy - Copy\\MVC1\\MVC1.csproj": {}
+    "D:\\.net (alia\\ass\\MVC\\me - Copy\\MVC1\\MVC1.csproj": {}
   },
   "projects": {
-    "D:\\.net (alia\\ass\\MVC\\MVC1 - Copy - Copy - Copy - Copy - Copy\\GYMsystem.DAL\\GYMsystem.DAL.csproj": {
+    "D:\\.net (alia\\ass\\MVC\\me - Copy\\GYMsystem.DAL\\GYMsystem.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\.net (alia\\ass\\MVC\\MVC1 - Copy - Copy - Copy - Copy - Copy\\GYMsystem.DAL\\GYMsystem.DAL.csproj",
+        "projectUniqueName": "D:\\.net (alia\\ass\\MVC\\me - Copy\\GYMsystem.DAL\\GYMsystem.DAL.csproj",
         "projectName": "GYMsystem.DAL",
-        "projectPath": "D:\\.net (alia\\ass\\MVC\\MVC1 - Copy - Copy - Copy - Copy - Copy\\GYMsystem.DAL\\GYMsystem.DAL.csproj",
+        "projectPath": "D:\\.net (alia\\ass\\MVC\\me - Copy\\GYMsystem.DAL\\GYMsystem.DAL.csproj",
         "packagesPath": "C:\\Users\\medoa\\.nuget\\packages\\",
-        "outputPath": "D:\\.net (alia\\ass\\MVC\\MVC1 - Copy - Copy - Copy - Copy - Copy\\GYMsystem.DAL\\obj\\",
+        "outputPath": "D:\\.net (alia\\ass\\MVC\\me - Copy\\GYMsystem.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -50,6 +50,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.28, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[8.0.28, )"
@@ -81,14 +85,14 @@
         }
       }
     },
-    "D:\\.net (alia\\ass\\MVC\\MVC1 - Copy - Copy - Copy - Copy - Copy\\GYMSystem\\GYMSystem.BLL.csproj": {
+    "D:\\.net (alia\\ass\\MVC\\me - Copy\\GYMSystem\\GYMSystem.BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\.net (alia\\ass\\MVC\\MVC1 - Copy - Copy - Copy - Copy - Copy\\GYMSystem\\GYMSystem.BLL.csproj",
+        "projectUniqueName": "D:\\.net (alia\\ass\\MVC\\me - Copy\\GYMSystem\\GYMSystem.BLL.csproj",
         "projectName": "GYMSystem.BLL",
-        "projectPath": "D:\\.net (alia\\ass\\MVC\\MVC1 - Copy - Copy - Copy - Copy - Copy\\GYMSystem\\GYMSystem.BLL.csproj",
+        "projectPath": "D:\\.net (alia\\ass\\MVC\\me - Copy\\GYMSystem\\GYMSystem.BLL.csproj",
         "packagesPath": "C:\\Users\\medoa\\.nuget\\packages\\",
-        "outputPath": "D:\\.net (alia\\ass\\MVC\\MVC1 - Copy - Copy - Copy - Copy - Copy\\GYMSystem\\obj\\",
+        "outputPath": "D:\\.net (alia\\ass\\MVC\\me - Copy\\GYMSystem\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -109,8 +113,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\.net (alia\\ass\\MVC\\MVC1 - Copy - Copy - Copy - Copy - Copy\\GYMsystem.DAL\\GYMsystem.DAL.csproj": {
-                "projectPath": "D:\\.net (alia\\ass\\MVC\\MVC1 - Copy - Copy - Copy - Copy - Copy\\GYMsystem.DAL\\GYMsystem.DAL.csproj"
+              "D:\\.net (alia\\ass\\MVC\\me - Copy\\GYMsystem.DAL\\GYMsystem.DAL.csproj": {
+                "projectPath": "D:\\.net (alia\\ass\\MVC\\me - Copy\\GYMsystem.DAL\\GYMsystem.DAL.csproj"
               }
             }
           }
@@ -148,6 +152,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
@@ -156,14 +163,14 @@
         }
       }
     },
-    "D:\\.net (alia\\ass\\MVC\\MVC1 - Copy - Copy - Copy - Copy - Copy\\MVC1\\MVC1.csproj": {
+    "D:\\.net (alia\\ass\\MVC\\me - Copy\\MVC1\\MVC1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\.net (alia\\ass\\MVC\\MVC1 - Copy - Copy - Copy - Copy - Copy\\MVC1\\MVC1.csproj",
+        "projectUniqueName": "D:\\.net (alia\\ass\\MVC\\me - Copy\\MVC1\\MVC1.csproj",
         "projectName": "MVC1",
-        "projectPath": "D:\\.net (alia\\ass\\MVC\\MVC1 - Copy - Copy - Copy - Copy - Copy\\MVC1\\MVC1.csproj",
+        "projectPath": "D:\\.net (alia\\ass\\MVC\\me - Copy\\MVC1\\MVC1.csproj",
         "packagesPath": "C:\\Users\\medoa\\.nuget\\packages\\",
-        "outputPath": "D:\\.net (alia\\ass\\MVC\\MVC1 - Copy - Copy - Copy - Copy - Copy\\MVC1\\obj\\",
+        "outputPath": "D:\\.net (alia\\ass\\MVC\\me - Copy\\MVC1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -184,8 +191,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\.net (alia\\ass\\MVC\\MVC1 - Copy - Copy - Copy - Copy - Copy\\GYMSystem\\GYMSystem.BLL.csproj": {
-                "projectPath": "D:\\.net (alia\\ass\\MVC\\MVC1 - Copy - Copy - Copy - Copy - Copy\\GYMSystem\\GYMSystem.BLL.csproj"
+              "D:\\.net (alia\\ass\\MVC\\me - Copy\\GYMSystem\\GYMSystem.BLL.csproj": {
+                "projectPath": "D:\\.net (alia\\ass\\MVC\\me - Copy\\GYMSystem\\GYMSystem.BLL.csproj"
               }
             }
           }

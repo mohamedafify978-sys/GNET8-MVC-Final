@@ -2,11 +2,13 @@
 using GYMSystem.BLL.Services.Interface;
 using GYMSystem.BLL.ViewModels.MemberViewModel;
 using GYMSystem.BLL.ViewModels.TrainerViewModel;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
 
 namespace MVC1.Controllers
 {
+    [Authorize]
     public class TrainerController : Controller
     {
         private readonly ITrainerService trainerService;

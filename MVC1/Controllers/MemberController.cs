@@ -1,8 +1,10 @@
 ﻿using GYMsystem.DAL.Models;
 using GYMsystem.DAL.Repositories.interfaces;
+using GYMSystem.BLL.Services.AttachmentService;
 using GYMSystem.BLL.Services.classes;
 using GYMSystem.BLL.Services.Interface;
 using GYMSystem.BLL.ViewModels.MemberViewModel;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.Blazor;
@@ -10,16 +12,30 @@ using System.Threading.Tasks;
 
 namespace MVC1.Controllers
 {
+    [Authorize(Roles ="SuperAdmin")]
     public class MemberController : Controller
     {
         private readonly IMemberServices memberServices;
+        private readonly IAttachmentService attachmentService;
 
-        public MemberController(IMemberServices memberServices)
+        public MemberController(IMemberServices memberServices,IAttachmentService attachmentService)
         {
             this.memberServices = memberServices;
+            this.attachmentService = attachmentService;
         }
+        [HttpGet]
+        public async Task<IActionResult> picture(int id)
+        {
+            var member = await memberServices.GetMemberDetailsByIdAsync(id);
+            if (member == null || string.IsNullOrWhiteSpace(member.photo))
+                return NotFound();
+            
+         var result=    attachmentService.GetFile(member.photo, "MembersPhoto");
+            if (result == null) return NotFound();
 
 
+            return File(result.Value.Stream, result.Value.ContentType);
+        }
 
         public async Task<IActionResult> Index(CancellationToken token)
         {

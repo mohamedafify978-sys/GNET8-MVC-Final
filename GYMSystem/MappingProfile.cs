@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using GYMsystem.DAL.Models;
 using GYMsystem.DAL.Models.Enums;
+using GYMSystem.BLL.ViewModels.MemberShipViewModel;
 using GYMSystem.BLL.ViewModels.MemberViewModel;
 using GYMSystem.BLL.ViewModels.PlanViewModel;
 using GYMSystem.BLL.ViewModels.SessionViewModel;
@@ -20,6 +21,7 @@ namespace GYMSystem.BLL
         {
             MapTrainer();
             MapSession();
+            MapMemberships();
             MapMember();
             MapPlan();
         }
@@ -115,6 +117,22 @@ namespace GYMSystem.BLL
 
         }
 
+        private void MapMemberships()
+        {
+            CreateMap<Membership, MemberShipForMemberViewModel>()
+                     .ForMember(dist => dist.MemberName, Option => Option.MapFrom(Src => Src.Member.Name))
+                     .ForMember(dist => dist.PlanName, Option => Option.MapFrom(Src => Src.Plan.Name))
+                     .ForMember(dist => dist.StartDate, Option => Option.MapFrom(X => X.CreatedAt));
+
+            CreateMap<Membership, MemberShipViewModel>()
+                     .ForMember(dist => dist.MemberName, Option => Option.MapFrom(Src => Src.Member.Name))
+                     .ForMember(dist => dist.PlanName, Option => Option.MapFrom(Src => Src.Plan.Name))
+                                          .ForMember(dist => dist.StartDate, Option => Option.MapFrom(X => X.CreatedAt));
+
+            CreateMap<CreateMemberShipViewModel, Membership>();
+            CreateMap<Member, MemberSelectListViewModel>();
+            CreateMap<Plan, PlanSelectListViewModel>();
+        }
 
 
 

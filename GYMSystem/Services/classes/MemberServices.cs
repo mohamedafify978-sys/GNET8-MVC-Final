@@ -2,6 +2,7 @@
 using GYMsystem.DAL.Models;
 using GYMsystem.DAL.Repositories.interfaces;
 using GYMSystem.BLL.Common;
+using GYMSystem.BLL.Services.AttachmentService;
 using GYMSystem.BLL.Services.Interface;
 using GYMSystem.BLL.ViewModels.MemberViewModel;
 using System;
@@ -19,10 +20,13 @@ namespace GYMSystem.BLL.Services.classes
         private readonly IUnitOfWork unitOfWork;
         private readonly IMapper mapper;
 
-        public MemberServices(IUnitOfWork unitOfWork, IMapper mapper)
+        public IAttachmentService AttachmentService { get; }
+
+        public MemberServices(IUnitOfWork unitOfWork, IMapper mapper,IAttachmentService AttachmentService)
         {
             this.unitOfWork = unitOfWork;
             this.mapper = mapper;
+             this.AttachmentService = AttachmentService;
         }
 
         public async Task<Result> CreateMemberAsync(CreateMemberViewModel model, CancellationToken ct = default)
@@ -30,17 +34,32 @@ namespace GYMSystem.BLL.Services.classes
             var emailExists = await unitOfWork.GetRepository<Member>().AnyAsync(m => m.Email == model.Email, ct);
             var phoneExists = await unitOfWork.GetRepository<Member>().AnyAsync(m => m.Phone == model.Phone, ct);
             if (emailExists || phoneExists) return Result.NotFound("Email or Phone already exists");
-            
 
 
-            var member = mapper.Map<CreateMemberViewModel,Member>(model);
+
+            var member = mapper.Map<CreateMemberViewModel, Member>(model);
+
+            var photoResult = await AttachmentService.UploadAsync(model.ProfileFile.OpenReadStream(), model.ProfileFile.FileName, "MembersPhoto", ct);
+            if (!photoResult.Success || string.IsNullOrEmpty(photoResult.Value))
+                return Result.Validation("Profile photo upload failed (check file type and size).");
+            var photo = photoResult.Value;
 
 
-           
             //var result  = await unitOfWork.GetRepository<Member>.AddAsync(member,ct);
             unitOfWork.GetRepository<Member>().Add(member);
-           var result =await  unitOfWork.SaveChangesAsync(ct);
-            return result > 0 ? Result.Ok() : Result.Fail("Failed to create Member.");
+            member.photo = photo;
+            var result = await unitOfWork.SaveChangesAsync(ct);
+            if (result > 0)
+            {
+                return Result.Ok();
+            }
+            else
+            {
+                 AttachmentService.Delete(member.photo, "MembersPhoto");
+
+                  return Result.Fail("Failed to create member.");
+            }
+           
         }
 
 
@@ -116,6 +135,7 @@ namespace GYMSystem.BLL.Services.classes
             var hasfutureBooking = await unitOfWork.GetRepository<Booking>().AnyAsync(b => b.MemberId == id && b.Session.StartDate > DateTime.Now, ct);
             if (hasfutureBooking) return Result.Fail("Cannot delete member with future bookings.", ResultKind.Conflict);
             unitOfWork.GetRepository<Member>().Delete(member);
+            AttachmentService.Delete(member.photo, "MembersPhoto");
             var result = await unitOfWork.SaveChangesAsync(ct);
             return result > 0 ? Result.Ok() : Result.Fail("Failed to update Member.");
 

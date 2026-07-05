@@ -18,6 +18,7 @@ namespace GYMSystem.BLL.Common
 
 
     }
+
     public sealed record Result<T>(bool Success,T? Value, string? Error = null, ResultKind Kind = ResultKind.Ok)
     {
 

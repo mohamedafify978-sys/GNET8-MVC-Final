@@ -43,10 +43,10 @@ namespace GYMsystem.DAL.DataSeeding
             }
 
         }
-        private static List<T> LoadDataFromJsonFile<T>(string fileName, string FolderPath)
+        private static List<T> LoadDataFromJsonFile<T>(string folderPath, string fileName)
         {
 
-            var filePath = Path.Combine(FolderPath, fileName);
+            var filePath = Path.Combine(folderPath, fileName);
             if (!File.Exists(filePath))
                 throw new FileNotFoundException($"Seed data file not found: {filePath}");
 

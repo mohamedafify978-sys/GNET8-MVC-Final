@@ -4,6 +4,7 @@ using GYMsystem.DAL.Repositories.classes;
 using GYMsystem.DAL.Repositories.interfaces;
 using GYMSystem.BLL.Services.Interface;
 using GYMSystem.BLL.ViewModels.PlanViewModel;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -12,7 +13,7 @@ using System.Threading.Tasks;
 namespace MVC1.Controllers
 {
 
-
+    [Authorize]
     public class PlanController : Controller
     {
         private readonly IPlanServices planService;

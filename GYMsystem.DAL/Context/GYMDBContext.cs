@@ -1,6 +1,8 @@
 ﻿using GYMsystem.DAL.Configuration;
 using GYMsystem.DAL.Configurations;
 using GYMsystem.DAL.Models;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -11,7 +13,7 @@ using System.Threading.Tasks;
 
 namespace GYMsystem.DAL.Context
 {
-    public class GYMDBContext : DbContext
+    public class GYMDBContext : IdentityDbContext<ApplicationUser>
     {
         //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         //{
@@ -25,8 +27,27 @@ namespace GYMsystem.DAL.Context
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            base.OnModelCreating(modelBuilder);
             modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
 
+            modelBuilder.Entity<HealthRecord>()
+                .Property(x => x.Height)
+                .HasPrecision(5, 2);
+
+            modelBuilder.Entity<HealthRecord>()
+                .Property(x => x.Weight)
+                .HasPrecision(5, 2);
+
+            modelBuilder.Entity<ApplicationUser>(EB =>
+            {
+                EB.Property(X => X.FirstName)
+                .HasColumnType("varchar")
+                .HasMaxLength(50);
+
+                EB.Property(X => X.LastName)
+                .HasColumnType("varchar")
+                .HasMaxLength(50);
+            });
 
 
         }
@@ -39,13 +60,11 @@ namespace GYMsystem.DAL.Context
         public DbSet<Session> Sessions { get; set; }
         public DbSet<Trainer> Trainers { get; set; }
         public DbSet<Category> Categories { get; set; }
-   
+
         public DbSet<HealthRecord> HealthRecords { get; set; }
-
-
-
-
-    }
-
     
+
+
+        }
+
 }

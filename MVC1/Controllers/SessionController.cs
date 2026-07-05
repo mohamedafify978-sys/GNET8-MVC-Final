@@ -2,6 +2,7 @@
 using GYMSystem.BLL.Services.classes;
 using GYMSystem.BLL.Services.Interface;
 using GYMSystem.BLL.ViewModels.SessionViewModel;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ApplicationModels;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -9,6 +10,7 @@ using System.Threading.Tasks;
 
 namespace MVC1.Controllers
 {
+    [Authorize]
     public class SessionController : Controller
     {
         private readonly ISessionServices sessionServices;

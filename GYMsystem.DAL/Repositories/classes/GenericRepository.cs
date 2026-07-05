@@ -69,5 +69,10 @@ namespace GYMsystem.DAL.Repositories.classes
             IQueryable<TEntity> query =  istracked ? Set : Set.AsNoTracking();
             return await query.FirstOrDefaultAsync(predicate);
         }
+
+        public async Task<int> countAsync(Expression<Func<TEntity, bool>>? condition = null, CancellationToken ct = default)
+        {        
+            return condition == null ? await Set.AsNoTracking().CountAsync(ct) : await Set.AsNoTracking().CountAsync(condition, ct);
+        }
     }
 }

@@ -1,4 +1,7 @@
-﻿<!DOCTYPE html>
+﻿@{
+    var currentController = ViewContext.RouteData.Values["controller"]?.ToString();
+}
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
@@ -33,25 +36,33 @@
                     <ul class="navbar-nav m-auto mb-2 mb-lg-0 mt-3 mt-lg-0">
                         <li class="nav-item">
                         <li class="nav-item">
-                            <a class="nav-link  px-3 py-2 mx-2 fw-bolder fs-5" aria-current="page" asp-controller="Home" asp-action="index">Home</a>
+                            <a class="nav-link px-3 py-2 mx-2 fw-bolder fs-5 @(currentController == "Home" ? "active" : "text-black-alternative")"
+                               asp-action="Index" asp-controller="Home">Home</a>
+                        </li>
+                            @if (User.IsInRole("SuperAdmin"))
+                            {
+                                <li class="nav-item">
+                                    <a class="nav-link px-3 py-2 mx-2 fw-bolder fs-5 @(currentController == "Member" ? "active" : "text-black-alternative")"
+                                    asp-action="Index" asp-controller="Member">Members</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link  px-3 py-2 mx-2 fw-bolder fs-5 @(currentController == "trainer" ? "active" : "text-black-alternative")" aria-current="page" asp-controller="trainer" asp-action="index">Trainers</a>
+                                </li>
+                            }
+
+                        <li class="nav-item">
+                            <a class="nav-link  px-3 py-2 mx-2 fw-bolder fs-5 @(currentController == "Session" ? "active" : "text-black-alternative")" aria-current="page" asp-controller="Session" asp-action="index">Sessions</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link  px-3 py-2 mx-2 fw-bolder fs-5" aria-current="page" asp-controller="Member" asp-action="index" >Members</a>
+                            <a class="nav-link  px-3 py-2 mx-2 fw-bolder fs-5 @(currentController == "Plan" ? "active" : "text-black-alternative")" aria-current="page" asp-controller="Plan" asp-action="Index">Plans</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link  px-3 py-2 mx-2 fw-bolder fs-5" aria-current="page" asp-controller="trainer" asp-action="index">Trainers</a>
+                            <a class="nav-link px-3 py-2 mx-2 fw-bolder fs-5 @(currentController == "Membership" ? "active" : "text-black-alternative")"
+                               asp-action="Index" asp-controller="MemberShip">MemberShips</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link  px-3 py-2 mx-2 fw-bolder fs-5" aria-current="page" asp-controller="Session" asp-action="index">Sessions</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link  px-3 py-2 mx-2 fw-bolder fs-5" aria-current="page" asp-controller="Plan" asp-action="Index">Plans</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link  px-3 py-2 mx-2 fw-bolder fs-5" aria-current="page" href="#">Memberships</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link  px-3 py-2 mx-2 fw-bolder fs-5" aria-current="page" href="#">Sessions Schedule</a>
+                            <a class="nav-link px-3 py-2 mx-2 fw-bolder fs-5 @(currentController == "Booking" ? "active" : "text-black-alternative")"
+                               asp-action="Index" asp-controller="Booking">Sessions Schedule</a>
                         </li>
                         <li class="nav-item">
                             <form asp-action="Logout" asp-controller="Account" method="post" class="d-inline">

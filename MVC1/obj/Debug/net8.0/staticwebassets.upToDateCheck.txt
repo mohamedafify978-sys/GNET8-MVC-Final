@@ -2,6 +2,10 @@ wwwroot\css\AuthStyle.css
 wwwroot\css\bootstrap.min.css
 wwwroot\css\style.css
 wwwroot\favicon.ico
+wwwroot\Files\plans(1).json
+wwwroot\Files\plans(2).json
+wwwroot\Files\plans(3).json
+wwwroot\Files\plans.json
 wwwroot\images\about p1.jpg
 wwwroot\images\about p2.jpg
 wwwroot\images\about p3.jpg
